@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Weather App</h1>
+        <div class="flex">
+            <input type="text" placeholder="Enter City Name" id="name">
+            <button class="search" onclick="check()"><i class="bi bi-search"></i></button>
+        </div>
+        <i class="bi bi-cloud-sun-fill"></i>
+        <h1 id="degree">0°C</h1>
+        <h1 id="city">Place</h1>
+        <div class="flex">
+            <div class="wind">
+                <i class="bi bi-water"></i>
+                <h2 id="wind">0</h2>
+                <h1>Wind Speed</h1>
+            </div>
+            <div class="Humidity">
+                <i class="bi bi-cloud-fog"></i>
+                <h2 id="humudity">0</h2>
+                <h1>Humidity</h1>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------- -->
+        <div class="flex">
+            <div class="wind">
+                <i class="bi bi-wind"></i>
+                <h2 id="presure">0</h2>
+                <h1>Pressure</h1>
+            </div>
+            <div class="Humidity">
+                <i class="bi bi-moisture"></i>
+                <h2 id="sea">0</h2>
+                <h1>Sea_Level</h1>
+            </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="flex">
+            <div class="wind">
+                <i class="bi bi-thermometer-low"></i>
+                <h2 id="tempmin">0</h2>
+                <h1>Temp_Min</h1>
+            </div>
+            <div class="Humidity">
+                <i class="bi bi-thermometer-high"></i>
+                <h2 id="tempmax">0</h2>
+                <h1>Temp_Max</h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
